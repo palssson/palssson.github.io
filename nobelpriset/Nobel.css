@@ -59,7 +59,7 @@ footer{
 	color:#FFF;
 	text-align:center;
 	float:right;
-	font-family:Helvetica;
+	font-family:Verdana, Geneva, sans-serif;
 	
 	}
 .huvud{
@@ -82,5 +82,5 @@ footer{
 }
 
 h1{
-	font-family:Arial;
+	font-family:Arial, Helvetica, sans-serif;
 }
