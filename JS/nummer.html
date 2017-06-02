@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Skriv in tal</title>
+</head>
+
+<body>
+	<p>Skriv in en siffra med knappen:</p>
+       <p><i id='Nummertn'></i></p>
+        <input type='button' onclick='Bytanummer()' value='Byt Nummert'/>
+        
+        <script type="text/javascript">
+			function Bytanummer() {
+			do {
+			var siffertext=prompt("Skriv in ett Nummert:");
+			var Nummert = parseInt(siffertext)
+			
+			if (Nummert + 2 == Nummert + 2)
+			{
+			 	document.getElementById('Nummertn').innerHTML = siffertext;
+			}
+			}while (Nummert + 2 != Nummert + 2)
+			}
+		</script>
+</body>
+</html>
